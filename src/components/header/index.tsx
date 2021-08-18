@@ -1,10 +1,14 @@
 import React from 'react';
 import {Container, Title} from './styles';
 
-export function Control() {
+interface Props {
+  title: string;
+}
+
+export function Header({title}: Props) {
   return (
     <Container>
-      <Title>Painel de Controle</Title>
+      <Title>{title}</Title>
     </Container>
   );
 }
