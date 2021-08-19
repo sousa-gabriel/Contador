@@ -4,7 +4,7 @@ import theme from '../../global/theme';
 
 export const Container = styled.TouchableOpacity`
   width: ${RFValue(100)}px;
-  height: ${RFValue(60)}px;
+  height: ${RFValue(70)}px;
   margin-top: ${RFValue(20)}px;
   justify-content: space-between;
   align-items: center;
