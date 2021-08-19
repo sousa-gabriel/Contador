@@ -3,7 +3,7 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {Platform} from 'react-native';
 import {ControlPainel} from '../screens/controlPainel';
 import {DashBoard} from '../screens/dashBoard';
-import theme from '../Global/theme';
+import theme from '../global/theme';
 import Icon from 'react-native-vector-icons/Feather';
 import {getBottomSpace} from 'react-native-iphone-x-helper';
 
